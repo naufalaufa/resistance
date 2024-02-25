@@ -14,7 +14,7 @@ const Main = () => {
         >
           <source src={Video} />
         </video>
-        <div className="grid place-content-center absolute top-[30%] left-[7%] md:left-20">
+        <div className="grid place-content-center absolute top-[30%] left-[7%] md:left-20 z-[99999]">
           <h1 className="text-2xl font-bold text-yellow-400 md:text-4xl lg:text-6xl relative">
             <span className="text-5xl sm:text-8xl">R</span>esistance in blom
           </h1>
